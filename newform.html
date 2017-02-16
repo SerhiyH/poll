@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ua">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Інтерв`ю</title>
@@ -13,12 +13,17 @@
         <input type="radio" name="gender" value="other"> Інше 
     </form>
     <h2>Вкажіть прізвище та ім'я</h2>
-    <form>
-  First name:<br>
-  <input type="text" name="firstname">
+    <form action="" method="POST">
+  <label for="name">Name</label>
+  <input type="text" name="name" id="name">
+  <label for="lastname">Last name</label>
+  <input type="text" name="lastname" id="lastname">
   <br>
-  Last name:<br>
-  <input type="text" name="lastname">
+  <label>
+      <br>Email
+      <input type="email" name="email">
+      <input type="submit">
+  </label>
 </form>
 
     
